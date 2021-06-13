@@ -1,0 +1,206 @@
+
+.fontMain {
+  font-family: acumin-pro-condensed, sans-serif;
+  font-weight: 200;
+  font-style: normal;
+  color: white;
+  font-size: 1.3rem;
+}
+
+.fontMainItalic {
+  font-family: acumin-pro-condensed, sans-serif;
+  font-weight: 200;
+  font-style: italic;
+}
+
+.fontMainBold {
+  font-family: acumin-pro-condensed, sans-serif;
+  font-weight: 600;
+  letter-spacing: .1rem;
+  font-style: normal;
+}
+
+.fontMainBoldItalic {
+  font-family: acumin-pro-condensed, sans-serif;
+  font-weight: 600;
+  font-style: italic;
+}
+
+.mainHeadingFont {
+  font-family: active, sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.headingFont {
+  font-family: acumin-pro-extra-condensed,sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.navbarFont {
+  font-family: acumin-pro-extra-condensed,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2rem;
+}
+
+body {
+  background-color: #2c3648;
+}
+
+.jumbotron {
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 5rem;
+  margin: 0;
+}
+
+.navbar {
+  background-color: rgba(0, 0, 0, 0.75);
+  padding-top: 0;
+  padding-left: 5%;
+  margin: 0;
+  border-bottom: 2.5px solid #ffc28e;
+  font-family: acumin-pro-extra-condensed,sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  font-size: 2rem;
+  color: rgb(201, 201, 201);
+}
+
+.literacy, .education, .creativity {
+  color: #99b4c283;
+  font-size: 3rem;
+  font-family: acumin-pro-extra-condensed,sans-serif;
+  letter-spacing: .7rem;
+  z-index: 9997;
+}
+
+.literacy {
+text-align: left;
+margin-top: -5rem;
+}
+
+.education {
+text-align: center;
+margin-top: -4.5rem;
+}
+
+.creativity {
+text-align: right;
+margin-top: -4.5rem;
+}
+
+.logoLG {
+  height: 35%;
+  position: absolute;
+  margin-top: -2.3rem;
+  margin-left: 50%;
+  z-index: 9999;
+}
+
+.footerMain {
+  background-color: rgba(0, 0, 0, 0.5);
+  align-items: center;
+  text-align: center;
+  border-top: 2.5px solid #ffc28e;
+}
+
+.GDlogo {
+  height: 2rem;
+}
+
+.copyright {
+  margin-top: 1rem;
+  text-align: center;
+}
+
+.pics {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+  align-items: left;
+}
+
+
+.donateBtn {
+  color: white;
+  font-size: 2rem;
+  background-color: #99b4c283;
+  border: solid rgba(0, 0, 0, 0.5);
+  margin-top: 1rem;
+  padding-top: .1rem;
+}
+
+.donateBtn:hover {
+  background-color: #ffc28e;
+}
+
+.btn-social-icon {
+  color: white;
+  font-size: 1.3rem;
+  margin-top: .2rem;
+}
+
+h2 {
+  color: #ffc28e;
+}
+
+.card {
+  background-color: rgba(0, 0, 0, 0.5);
+  border: solid black;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+}
+
+.eventsCard {
+  margin-top: 0;
+  max-height: 22.5rem;
+  overflow-y: scroll;
+}
+
+.eventsCard.card-header {
+border-bottom: .3rem solid black;
+background-color: rgba(0, 0, 0, 0.5);
+}
+
+.standOut {
+  color: #ffc28e;
+}
+
+.small {
+  font-size: 1rem;
+}
+
+a {
+  color: white;
+  font-style: none;
+}
+
+a:hover {
+  color: #99b4c2;
+  font-style: none;
+}
+
+.subheading {
+  font-size: 1.3rem;
+  color: #99b4c2;
+}
+
+/* SOCIAL ICONS */
+
+.icon {
+margin: 5 px;
+}
+
+/* FONT AWESOME ICONS */
+/* 
+.fa-sm {
+font-size: 1.5rem;
+letter-spacing: .3rem;
+}
+
+.fa-xs {
+font-size: 1.2rem;
+letter-spacing: .3rem;
+} */
